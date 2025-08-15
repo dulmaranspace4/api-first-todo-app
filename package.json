@@ -14,5 +14,9 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/api-first-todo-app.git"
+  }
 }
