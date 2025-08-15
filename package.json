@@ -4,7 +4,8 @@
   "description": "Une application de gestion de tâches qui utilise une architecture API-first.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"  // Utiliser nodemon pour le développement
   },
   "dependencies": {
     "express": "^4.17.1",
