@@ -2,10 +2,10 @@
   "name": "api-first-todo-app",
   "version": "1.0.0",
   "description": "Une application de gestion de tâches qui utilise une architecture API-first.",
-  "main": "server.js", // Point d'entrée principal de l'application
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"  // Utiliser nodemon pour le développement
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "license": "MIT",  // La licence du projet
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/username/api-first-todo-app.git"
