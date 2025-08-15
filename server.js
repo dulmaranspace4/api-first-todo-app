@@ -23,9 +23,13 @@ const Task = mongoose.model('Task', TaskSchema);
 
 // Routes
 app.post('/tasks', async (req, res) => {
-  const task = new Task(req.body);
-  await task.save();
-  res.status(201).send(task);
+  try {
+    const task = new Task(req.body);
+    await task.save();
+    res.status(201).send(task);
+  } catch (error) {
+    res.status(400).send(error);
+  }
 });
 
 app.get('/tasks', async (req, res) => {
